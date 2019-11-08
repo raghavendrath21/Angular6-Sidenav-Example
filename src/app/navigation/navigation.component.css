@@ -1,0 +1,32 @@
+.example-container {
+  height: 50%;
+  margin: 10px;
+}
+
+.title {
+  padding: 16px;
+}
+
+.mat-toolbar.mat-warn {
+  background: #3f51b5;
+  color: #fafafa;
+}
+
+.mat-icon {
+  color: white;
+}
+
+.example-container[_ngcontent-c1] {
+  height: 90%;
+  margin: 0 !important;
+}
+
+.app-toolbar {
+  position: sticky;
+  position: -webkit-sticky;
+  /* For macOS/iOS Safari */
+  top: 0;
+  /* Sets the sticky toolbar to be on top */
+  z-index: 1000;
+  /* Ensure that your app's content doesn't overlap the toolbar */
+}
